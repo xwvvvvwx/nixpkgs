@@ -2,12 +2,14 @@
 , buildPythonPackage
 , fetchPypi
 , stdenv
+, isPy3k
 }:
 
 buildPythonPackage rec {
   pname = "simplejson";
   version = "3.16.0";
-  doCheck = !stdenv.isDarwin;
+  # Test failures with 3.7 https://github.com/simplejson/simplejson/issues/241
+  doCheck = !(stdenv.isDarwin || isPy3k);
 
   src = fetchPypi {
     inherit pname version;
