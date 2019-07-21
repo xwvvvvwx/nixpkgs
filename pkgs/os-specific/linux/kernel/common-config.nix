@@ -12,7 +12,7 @@
 # Configuration
 { stdenv, version
 
-, features ? { grsecurity = false; xen_dom0 = false; }
+, features ? { networking = true; grsecurity = false; xen_dom0 = false; }
 }:
 
 with stdenv.lib;
@@ -92,7 +92,7 @@ let
     };
 
     networking = {
-      NET                = yes;
+      NET                = no;
       IP_PNP             = no;
       NETFILTER          = yes;
       NETFILTER_ADVANCED = yes;
