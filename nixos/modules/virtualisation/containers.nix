@@ -89,6 +89,10 @@ let
         extraFlags+=" --private-network"
       fi
 
+      if [ -n "$NETWORK_NAMESPACE" ]; then
+        extraFlags+=" --network-namespace-path /run/netns/$NETWORK_NAMESPACE"
+      fi
+
       if [ -n "$HOST_ADDRESS" ]  || [ -n "$LOCAL_ADDRESS" ] ||
          [ -n "$HOST_ADDRESS6" ] || [ -n "$LOCAL_ADDRESS6" ]; then
         extraFlags+=" --network-veth"
@@ -140,6 +144,7 @@ let
         --bind="/nix/var/nix/gcroots/per-container/$INSTANCE:/nix/var/nix/gcroots" \
         ${optionalString (!cfg.ephemeral) "--link-journal=try-guest"} \
         --setenv PRIVATE_NETWORK="$PRIVATE_NETWORK" \
+        --setenv NETWORK_NAMESPACE="NETWORK_NAMESPACE" \
         --setenv HOST_BRIDGE="$HOST_BRIDGE" \
         --setenv HOST_ADDRESS="$HOST_ADDRESS" \
         --setenv LOCAL_ADDRESS="$LOCAL_ADDRESS" \
@@ -490,6 +495,13 @@ in
                                 This might be fixed in the future. See https://github.com/NixOS/nixpkgs/issues/38509
                               '';
                             }
+                            {
+                              assertion =  (config.privateNetwork || length config.interfaces != 0) -> config.networkNamespace == null;
+                              message = ''
+                                `networkNamespace` cannot be set if `privateNetwork` is enabled, or if any interfaces
+                                should be moved into the container network namespace
+                              '';
+                            }
                           ];
                         };
                       };
@@ -561,6 +573,21 @@ in
                 on the host.  If this option is not set, then the
                 container shares the network interfaces of the host,
                 and can bind to any port on any interface.
+              '';
+            };
+
+            networkNamespace = mkOption {
+              type = types.nullOr types.str;
+              default = null;
+              example = "physical";
+              description = ''
+                The name of the network namespace that the container will be
+                started with. The namespace must have already been created
+                (e.g. with <literal>networking.namespaces</literal> or
+                <literal>ip netns add</literal>. Note that this option is
+                incompatible with
+                <literal>containers.&lt;name&gt;.privateNetwork</literal> and
+                <literal>containers.&lt;name&gt;.interfaces</literal>.
               '';
             };
 
@@ -798,6 +825,9 @@ in
               ${optionalString (cfg.localAddress6 != null) ''
                 LOCAL_ADDRESS6=${cfg.localAddress6}
               ''}
+            ''}
+            ${optionalString (cfg.networkNamespace != null) ''
+              NETWORK_NAMESPACE="${cfg.networkNamespace}"
             ''}
             INTERFACES="${toString cfg.interfaces}"
             MACVLANS="${toString cfg.macvlans}"
