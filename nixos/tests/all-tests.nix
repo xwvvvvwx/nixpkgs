@@ -79,6 +79,7 @@ in
   containers-tmpfs = handleTest ./containers-tmpfs.nix {};
   convos = handleTest ./convos.nix {};
   corerad = handleTest ./corerad.nix {};
+  containers-writable-apivfs = handleTest ./containers-writeable-apivfs.nix {};
   couchdb = handleTest ./couchdb.nix {};
   cri-o = handleTestOn ["x86_64-linux"] ./cri-o.nix {};
   deluge = handleTest ./deluge.nix {};
