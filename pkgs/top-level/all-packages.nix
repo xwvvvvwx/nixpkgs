@@ -4470,6 +4470,10 @@ in
 
   medfile = callPackage ../development/libraries/medfile { };
 
+  mes = callPackage ../development/compilers/mes { stdenv = pkgs.pkgsi686Linux.stdenv; };
+
+  mescc-tools = callPackage ../development/tools/mescc-tools { };
+
   memtester = callPackage ../tools/system/memtester { };
 
   mhonarc = perlPackages.MHonArc;
@@ -9370,6 +9374,8 @@ in
   guile-lib = callPackage ../development/guile-modules/guile-lib { };
 
   guile-ncurses = callPackage ../development/guile-modules/guile-ncurses { };
+
+  guile-nyacc = callPackage ../development/guile-modules/guile-nyacc { };
 
   guile-opengl = callPackage ../development/guile-modules/guile-opengl { };
 
