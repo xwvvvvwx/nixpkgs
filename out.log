@@ -1,0 +1,1447 @@
+these derivations will be built:
+  /nix/store/7ipmjnpax4cp25r2k557rx9nwg5zbhac-mes-0.21.drv
+building '/nix/store/7ipmjnpax4cp25r2k557rx9nwg5zbhac-mes-0.21.drv'...
++ unset PATH
++ for p in $buildInputs
++ export PATH=/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ PATH=/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ for p in $buildInputs
++ export PATH=/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ PATH=/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ for p in $buildInputs
++ export PATH=/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ PATH=/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ for p in $buildInputs
++ export PATH=/nix/store/dv52knazq6pb1zv9pazzj666zg550zni-gnused-4.7/bin:/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ PATH=/nix/store/dv52knazq6pb1zv9pazzj666zg550zni-gnused-4.7/bin:/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ for p in $buildInputs
++ export PATH=/nix/store/gpd7dd7i1jqcwr1wiszcxypjqk61nimc-gnutar-1.32/bin:/nix/store/dv52knazq6pb1zv9pazzj666zg550zni-gnused-4.7/bin:/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ PATH=/nix/store/gpd7dd7i1jqcwr1wiszcxypjqk61nimc-gnutar-1.32/bin:/nix/store/dv52knazq6pb1zv9pazzj666zg550zni-gnused-4.7/bin:/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ for p in $buildInputs
++ export PATH=/nix/store/xn2bim352zk1xv0s8vzqg6zc1znj7nl0-gzip-1.10/bin:/nix/store/gpd7dd7i1jqcwr1wiszcxypjqk61nimc-gnutar-1.32/bin:/nix/store/dv52knazq6pb1zv9pazzj666zg550zni-gnused-4.7/bin:/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ PATH=/nix/store/xn2bim352zk1xv0s8vzqg6zc1znj7nl0-gzip-1.10/bin:/nix/store/gpd7dd7i1jqcwr1wiszcxypjqk61nimc-gnutar-1.32/bin:/nix/store/dv52knazq6pb1zv9pazzj666zg550zni-gnused-4.7/bin:/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ for p in $buildInputs
++ export PATH=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin:/nix/store/xn2bim352zk1xv0s8vzqg6zc1znj7nl0-gzip-1.10/bin:/nix/store/gpd7dd7i1jqcwr1wiszcxypjqk61nimc-gnutar-1.32/bin:/nix/store/dv52knazq6pb1zv9pazzj666zg550zni-gnused-4.7/bin:/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ PATH=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin:/nix/store/xn2bim352zk1xv0s8vzqg6zc1znj7nl0-gzip-1.10/bin:/nix/store/gpd7dd7i1jqcwr1wiszcxypjqk61nimc-gnutar-1.32/bin:/nix/store/dv52knazq6pb1zv9pazzj666zg550zni-gnused-4.7/bin:/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ for p in $buildInputs
++ export PATH=/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin:/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin:/nix/store/xn2bim352zk1xv0s8vzqg6zc1znj7nl0-gzip-1.10/bin:/nix/store/gpd7dd7i1jqcwr1wiszcxypjqk61nimc-gnutar-1.32/bin:/nix/store/dv52knazq6pb1zv9pazzj666zg550zni-gnused-4.7/bin:/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ PATH=/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin:/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin:/nix/store/xn2bim352zk1xv0s8vzqg6zc1znj7nl0-gzip-1.10/bin:/nix/store/gpd7dd7i1jqcwr1wiszcxypjqk61nimc-gnutar-1.32/bin:/nix/store/dv52knazq6pb1zv9pazzj666zg550zni-gnused-4.7/bin:/nix/store/20b535jb98hy7k4z8vkrlkjma212a3l5-gnugrep-3.3/bin:/nix/store/j0lhk5xkky410h5v9af98sz6kd8cbp40-coreutils-8.31/bin:/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin
++ tar -xf /nix/store/2pra9z0wlgzjva4rwq5n9g5v0iia78ry-mes-0.21.tar.gz --strip-components=1
++ bash configure.sh --prefix=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21 --host=i686-linux-gnu
++ '[' 2 -gt 0 ']'
++ case $1 in
++ prefix=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21
++ shift
++ '[' 1 -gt 0 ']'
++ case $1 in
++ host=i686-linux-gnu
++ shift
++ '[' 0 -gt 0 ']'
++ prefix=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21
++ mes_libc=mes
++ courageous=false
++ host=i686-linux-gnu
++ AR=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar
++ BASH=/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash
+++ command -v blood-elf
++ BLOOD_ELF=/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf
++ CC=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc
+++ command -v diff
+++ echo /build/pre-inst-env diff.scm
++ DIFF='/build/pre-inst-env diff.scm'
+++ command -v guild
++ GUILD=
++ true
+++ command -v guile-tools
++ GUILE_TOOLS=
++ true
++ test '!' ''
++ test ''
++ GUILD=true
+++ command -v guile
++ GUILE=
++ true
+++ command -v hex2
++ HEX2=/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2
+++ command -v M1
++ M1=/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1
+++ command -v mes
++ MES_FOR_BUILD=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes
+++ command -v git
++ GIT=
++ true
+++ command -v perl
++ PERL=
++ true
++ SHELL=/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash
++ MES_SEED=../mes-seed
++ test . = .
++ top_builddir=.
+++ cd .
+++ pwd
++ abs_top_srcdir=/build
++ abs_top_builddir=/build
++ test -z '' -o '' = true
++ GUILE_EFFECTIVE_VERSION=2.2
+++ eval echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin
++++ echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin
++ bindir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin
+++ eval echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share
++++ echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share
++ datadir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share
+++ eval echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes
++++ echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes
++ docdir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes
+++ eval echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info
++++ echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info
++ infodir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info
+++ eval echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include
++++ echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include
++ includedir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include
+++ eval echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib
++++ echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib
++ libdir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib
+++ eval echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes
++++ echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes
++ pkgdatadir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes
+++ eval echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man
++++ echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man
++ mandir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man
+++ eval echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2
++++ echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2
++ guile_site_dir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2
+++ eval echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache
++++ echo /nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache
++ guile_site_ccache_dir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache
++ host=i686-linux-gnu
++ test -z i686-linux-gnu
++ mes_cpu=i686
++ test i686 = i386
++ test i686 = i486
++ test i686 = i586
++ test i686 = i686
++ mes_cpu=x86
++ test x86 = armv4
++ test '' = armv7l
++ test x86 = amd64
++ case "$host" in
++ mes_kernel=linux
++ case "$mes_cpu" in
++ mes_bits=32
++ /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc --version
++ grep gcc
++ MES_ARENA=20000000
++ export MES_ARENA
++ MES_MAX_ARENA=20000000
++ export MES_MAX_ARENA
++ MES_STACK=5000000
++ export MES_STACK
++ MES_PREFIX=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21
++ export MES_PREFIX
++ GUILE_LOAD_PATH=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/share/guile/site/2.2:/nix/store/1si3nsnsrrbpsgn22wvxdnsv8ls57fdd-nyacc-0.99.0/share/guile/site/2.2
++ export GUILE_LOAD_PATH
++ MES=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes
++ bindir=/bin/mes
++ '[' '!' -f /bin/mes/mescc.scm ']'
+++ dirname /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc
++ bindir=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin
++ sep=
+++ basename /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes
++ '[' mes = mes ']'
++ sep=--
++ /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes --no-auto-compile -e main -L /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/share/guile/site/2.2 -C /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/lib/guile/2.2/site-ccache /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc.scm -- --version
+/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc: line 59:    31 Segmentation fault      (core dumped) ${SCHEME-$MES} --no-auto-compile -e main -L /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/share/guile/site/2.2 -C /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/lib/guile/2.2/site-ccache $bindir/mescc.scm $sep "$@"
++ /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc --version
++ grep tcc
++ MES_ARENA=20000000
++ export MES_ARENA
++ MES_MAX_ARENA=20000000
++ export MES_MAX_ARENA
++ MES_STACK=5000000
++ export MES_STACK
++ MES_PREFIX=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21
++ export MES_PREFIX
++ GUILE_LOAD_PATH=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/share/guile/site/2.2:/nix/store/1si3nsnsrrbpsgn22wvxdnsv8ls57fdd-nyacc-0.99.0/share/guile/site/2.2
++ export GUILE_LOAD_PATH
++ MES=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes
++ bindir=/bin/mes
++ '[' '!' -f /bin/mes/mescc.scm ']'
+++ dirname /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc
++ bindir=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin
++ sep=
+++ basename /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes
++ '[' mes = mes ']'
++ sep=--
++ /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes --no-auto-compile -e main -L /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/share/guile/site/2.2 -C /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/lib/guile/2.2/site-ccache /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc.scm -- --version
+/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc: line 59:    36 Segmentation fault      (core dumped) ${SCHEME-$MES} --no-auto-compile -e main -L /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/share/guile/site/2.2 -C /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/lib/guile/2.2/site-ccache $bindir/mescc.scm $sep "$@"
++ compiler=mescc
++ mes_system=x86-linux-mes
++ subst build-aux/GNUmakefile.in GNUmakefile
++ echo 'creating GNUmakefile'
+creating GNUmakefile
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, build-aux/GNUmakefile.in
++ subst build-aux/config.sh.in config.sh
++ echo 'creating config.sh'
+creating config.sh
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, build-aux/config.sh.in
++ subst build-aux/bootstrap.sh.in bootstrap.sh
++ echo 'creating bootstrap.sh'
+creating bootstrap.sh
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, build-aux/bootstrap.sh.in
++ chmod +x bootstrap.sh
++ subst build-aux/build.sh.in build.sh
++ echo 'creating build.sh'
+creating build.sh
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, build-aux/build.sh.in
++ chmod +x build.sh
++ subst build-aux/check.sh.in check.sh
++ echo 'creating check.sh'
+creating check.sh
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, build-aux/check.sh.in
++ chmod +x check.sh
++ subst build-aux/install.sh.in install.sh
++ echo 'creating install.sh'
+creating install.sh
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, build-aux/install.sh.in
++ chmod +x install.sh
++ subst build-aux/pre-inst-env.in pre-inst-env
++ echo 'creating pre-inst-env'
+creating pre-inst-env
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, build-aux/pre-inst-env.in
++ chmod +x pre-inst-env
++ subst scripts/mesar.in scripts/mesar
++ echo 'creating scripts/mesar'
+creating scripts/mesar
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, scripts/mesar.in
++ chmod +x scripts/mesar
++ subst scripts/mescc.scm.in scripts/mescc.scm
++ echo 'creating scripts/mescc.scm'
+creating scripts/mescc.scm
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, scripts/mescc.scm.in
++ chmod +x scripts/mescc.scm
++ subst scripts/mescc.in scripts/mescc
++ echo 'creating scripts/mescc'
+creating scripts/mescc
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, scripts/mescc.in
++ chmod +x scripts/mescc
++ subst build-aux/uninstall.sh.in uninstall.sh
++ echo 'creating uninstall.sh'
+creating uninstall.sh
++ sed -e s,@PACKAGE@,, -e s,@PACKAGE_NAME@,, -e s,@PACKAGE_BUGREPORT@,, -e s,@VERSION@,0.21, -e s,@bootstrap@,yes, -e s,@build@,, -e s,@host@,i686-linux-gnu, -e s,@compiler@,mescc, -e s,@courageous@,false, -e s,@mes_bits@,32, -e s,@mes_kernel@,linux, -e s,@mes_cpu@,x86, -e s,@mes_libc@,mes, -e s,@mes_system@,x86-linux-mes, -e s,@abs_top_srcdir@,/build, -e s,@abs_top_builddir@,/build, -e s,@top_builddir@,., -e s,@srcdest@,, -e s,@srcdir@,., -e s,@prefix@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21, -e s,@program_prefix@,, -e s,@bindir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin, -e s,@datadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share, -e s,@docdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes, -e s,@guile_site_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2, -e s,@guile_site_ccache_dir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache, -e s,@infodir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info, -e s,@includedir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include, -e s,@libdir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib, -e s,@mandir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man, -e s,@pkgdatadir@,/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes, -e s,@sysconfdir@,, -e s,@GUILE_EFFECTIVE_VERSION@,2.2, -e s,@V@,2, -e s,@AR@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar, -e s,@BASH@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, -e s,@BLOOD_ELF@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf, -e s,@CC@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc, -e 's,@DIFF@,/build/pre-inst-env diff.scm,' -e s,@GIT@,, -e s,@GUILD@,true, -e s,@GUILE@,, -e s,@PERL@,, -e s,@CFLAGS@,, -e s,@HEX2@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2, -e s,@HEX2FLAGS@,, -e s,@M1@,/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1, -e s,@M1FLAGS@,, -e s,@MES_FOR_BUILD@,/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes, -e s,@MES_SEED@,../mes-seed, -e s,@MES_SEED@,../mes-seed, -e s,@SHELL@,/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash, build-aux/uninstall.sh.in
++ chmod +x uninstall.sh
++ mkdir -p include/mes
++ rm -f include/mes/config.h
++ test mes = system
++ cat
++ cat
++ cat
+GNU Mes is configured for
+   compiler: mescc
+   cpu:      x86
+   bits:     32
+   libc:     mes
+   kernel:   linux
+   system:   x86-linux-mes
+
+Run:
+  sh build.sh      to build mes
+  sh check.sh      to check mes
+  sh install.sh    to install mes
++ bash bootstrap.sh
+++ . ./config.sh
++++ config_sh=1
++++ AR=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mesar
++++ BASH=/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash
++++ BLOOD_ELF=/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/blood-elf
++++ CC=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc
++++ DIFF='/build/pre-inst-env diff.scm'
++++ DOT=@DOT@
++++ GIT=
++++ GUILD=true
++++ GUILE=
++++ GUILE_EFFECTIVE_VERSION=2.2
++++ GUIX=@GUIX@
++++ HELP2MAN=@HELP2MAN@
++++ HEX2=/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/hex2
++++ MAKEINFO=@MAKEINFO@
++++ M1=/nix/store/7pxvaxq2gl8lz73xd6d3shbp9k7j2hbk-mescc-tools-0.6.1/bin/M1
++++ MES_FOR_BUILD=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes
++++ MES_SEED=../mes-seed
++++ NYACC=@NYACC@
++++ PACKAGE=
++++ PACKAGE_NAME=
++++ PACKAGE_BUGREPORT=
++++ PERL=
++++ SHELL=/nix/store/b34zjdmq5l8k6rwdykjx55yl9r9isl8k-bash-4.4-p23/bin/bash
++++ TINYCC_PREFIX=@TINYCC_PREFIX@
++++ VERSION=0.21
++++ V=2
++++ colors=@colors@
++++ abs_top_builddir=/build
++++ abs_top_srcdir=/build
++++ arch=@arch@
++++ build=
++++ host=i686-linux-gnu
++++ bootstrap=yes
++++ compiler=mescc
++++ courageous=false
++++ mes_system=x86-linux-mes
++++ mes_cpu=x86
++++ mes_bits=32
++++ mes_libc=mes
++++ mes_kernel=linux
++++ prefix=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21
++++ bindir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/bin
++++ datadir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share
++++ pkgdatadir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/mes
++++ docdir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/doc/mes
++++ guile_site_ccache_dir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib/guile/2.2/site-ccache
++++ guile_site_dir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/guile/site/2.2
++++ includedir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/include
++++ infodir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/info
++++ libdir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/lib
++++ mandir=/nix/store/yif4v866vgw25mph9nmagpqwb18icjpd-mes-0.21/share/man
++++ moduledir=@moduledir@
++++ with_glibc_p=@with_glibc_p@
++++ program_prefix=
++++ srcdest=
++++ srcdir=.
++++ sysconfdir=
++++ top_builddir=.
++++ MES_PREFIX=/build
++++ export PACKAGE
++++ export PACKAGE_NAME
++++ export PACKAGE_BUGREPORT
++++ export AR
++++ export CC
++++ export DIFF
++++ export SHELL
++++ export V
++++ export colors
++++ export compiler
++++ export courageous
++++ export srcdest
++++ export srcdir
++++ export GUILE_AUTO_COMPILE
++++ export MES_PREFIX
+++ libc_mini_shared_SOURCES='
+lib/mes/eputs.c
+lib/mes/oputs.c
+'
+++ test mes = mes
+++ libc_mini_shared_SOURCES='
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+'
+++ libc_mini_SOURCES='
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+'
+++ test mes = mes
+++ libc_mini_SOURCES='
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+
+lib/mes/write.c
+'
+++ libmes_SOURCES='
+
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+
+lib/ctype/isnumber.c
+lib/mes/abtol.c
+lib/mes/div.c
+lib/mes/eputc.c
+lib/mes/fdgetc.c
+lib/mes/fdputc.c
+lib/mes/fdputs.c
+lib/mes/fdungetc.c
+lib/mes/itoa.c
+lib/mes/ltoa.c
+lib/mes/ltoab.c
+lib/mes/mes_open.c
+lib/mes/ntoab.c
+lib/mes/oputc.c
+lib/mes/ultoa.c
+lib/mes/utoa.c
+'
+++ test mes = mes
+++ libmes_SOURCES='
+
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+
+lib/ctype/isnumber.c
+lib/mes/abtol.c
+lib/mes/div.c
+lib/mes/eputc.c
+lib/mes/fdgetc.c
+lib/mes/fdputc.c
+lib/mes/fdputs.c
+lib/mes/fdungetc.c
+lib/mes/itoa.c
+lib/mes/ltoa.c
+lib/mes/ltoab.c
+lib/mes/mes_open.c
+lib/mes/ntoab.c
+lib/mes/oputc.c
+lib/mes/ultoa.c
+lib/mes/utoa.c
+
+lib/ctype/isdigit.c
+lib/ctype/isspace.c
+lib/ctype/isxdigit.c
+lib/posix/write.c
+lib/stdlib/atoi.c
+'
+++ test linux = linux
+++ libmes_SOURCES='
+
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+
+lib/ctype/isnumber.c
+lib/mes/abtol.c
+lib/mes/div.c
+lib/mes/eputc.c
+lib/mes/fdgetc.c
+lib/mes/fdputc.c
+lib/mes/fdputs.c
+lib/mes/fdungetc.c
+lib/mes/itoa.c
+lib/mes/ltoa.c
+lib/mes/ltoab.c
+lib/mes/mes_open.c
+lib/mes/ntoab.c
+lib/mes/oputc.c
+lib/mes/ultoa.c
+lib/mes/utoa.c
+
+lib/ctype/isdigit.c
+lib/ctype/isspace.c
+lib/ctype/isxdigit.c
+lib/posix/write.c
+lib/stdlib/atoi.c
+
+lib/linux/lseek.c
+'
+++ libc_SOURCES='
+
+
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+
+lib/ctype/isnumber.c
+lib/mes/abtol.c
+lib/mes/div.c
+lib/mes/eputc.c
+lib/mes/fdgetc.c
+lib/mes/fdputc.c
+lib/mes/fdputs.c
+lib/mes/fdungetc.c
+lib/mes/itoa.c
+lib/mes/ltoa.c
+lib/mes/ltoab.c
+lib/mes/mes_open.c
+lib/mes/ntoab.c
+lib/mes/oputc.c
+lib/mes/ultoa.c
+lib/mes/utoa.c
+
+lib/ctype/isdigit.c
+lib/ctype/isspace.c
+lib/ctype/isxdigit.c
+lib/posix/write.c
+lib/stdlib/atoi.c
+
+lib/linux/lseek.c
+
+lib/mes/__assert_fail.c
+lib/mes/__buffered_read.c
+lib/mes/__mes_debug.c
+lib/posix/execv.c
+lib/posix/getcwd.c
+lib/posix/getenv.c
+lib/posix/isatty.c
+lib/posix/open.c
+lib/posix/read.c
+lib/posix/setenv.c
+lib/posix/wait.c
+lib/stdio/fgetc.c
+lib/stdio/fputc.c
+lib/stdio/fputs.c
+lib/stdio/getc.c
+lib/stdio/getchar.c
+lib/stdio/putc.c
+lib/stdio/putchar.c
+lib/stdio/ungetc.c
+lib/stdlib/free.c
+lib/stdlib/malloc.c
+lib/stdlib/realloc.c
+lib/string/memchr.c
+lib/string/memcmp.c
+lib/string/memcpy.c
+lib/string/memmove.c
+lib/string/memset.c
+lib/string/strcmp.c
+lib/string/strcpy.c
+lib/string/strncmp.c
+'
+++ test linux = linux
+++ libc_SOURCES='
+
+
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+
+lib/ctype/isnumber.c
+lib/mes/abtol.c
+lib/mes/div.c
+lib/mes/eputc.c
+lib/mes/fdgetc.c
+lib/mes/fdputc.c
+lib/mes/fdputs.c
+lib/mes/fdungetc.c
+lib/mes/itoa.c
+lib/mes/ltoa.c
+lib/mes/ltoab.c
+lib/mes/mes_open.c
+lib/mes/ntoab.c
+lib/mes/oputc.c
+lib/mes/ultoa.c
+lib/mes/utoa.c
+
+lib/ctype/isdigit.c
+lib/ctype/isspace.c
+lib/ctype/isxdigit.c
+lib/posix/write.c
+lib/stdlib/atoi.c
+
+lib/linux/lseek.c
+
+lib/mes/__assert_fail.c
+lib/mes/__buffered_read.c
+lib/mes/__mes_debug.c
+lib/posix/execv.c
+lib/posix/getcwd.c
+lib/posix/getenv.c
+lib/posix/isatty.c
+lib/posix/open.c
+lib/posix/read.c
+lib/posix/setenv.c
+lib/posix/wait.c
+lib/stdio/fgetc.c
+lib/stdio/fputc.c
+lib/stdio/fputs.c
+lib/stdio/getc.c
+lib/stdio/getchar.c
+lib/stdio/putc.c
+lib/stdio/putchar.c
+lib/stdio/ungetc.c
+lib/stdlib/free.c
+lib/stdlib/malloc.c
+lib/stdlib/realloc.c
+lib/string/memchr.c
+lib/string/memcmp.c
+lib/string/memcpy.c
+lib/string/memmove.c
+lib/string/memset.c
+lib/string/strcmp.c
+lib/string/strcpy.c
+lib/string/strncmp.c
+
+lib/linux/access.c
+lib/linux/brk.c
+lib/linux/chmod.c
+lib/linux/clock_gettime.c
+lib/linux/dup.c
+lib/linux/dup2.c
+lib/linux/execve.c
+lib/linux/fork.c
+lib/linux/fsync.c
+lib/linux/_getcwd.c
+lib/linux/gettimeofday.c
+lib/linux/ioctl.c
+lib/linux/_open3.c
+lib/linux/_read.c
+lib/linux/time.c
+lib/linux/unlink.c
+lib/linux/waitpid.c
+lib/linux/x86-mes-mescc/syscall.c
+'
+++ libtcc1_SOURCES='
+lib/libtcc1.c
+'
+++ libc_tcc_SOURCES='
+
+
+
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+
+lib/ctype/isnumber.c
+lib/mes/abtol.c
+lib/mes/div.c
+lib/mes/eputc.c
+lib/mes/fdgetc.c
+lib/mes/fdputc.c
+lib/mes/fdputs.c
+lib/mes/fdungetc.c
+lib/mes/itoa.c
+lib/mes/ltoa.c
+lib/mes/ltoab.c
+lib/mes/mes_open.c
+lib/mes/ntoab.c
+lib/mes/oputc.c
+lib/mes/ultoa.c
+lib/mes/utoa.c
+
+lib/ctype/isdigit.c
+lib/ctype/isspace.c
+lib/ctype/isxdigit.c
+lib/posix/write.c
+lib/stdlib/atoi.c
+
+lib/linux/lseek.c
+
+lib/mes/__assert_fail.c
+lib/mes/__buffered_read.c
+lib/mes/__mes_debug.c
+lib/posix/execv.c
+lib/posix/getcwd.c
+lib/posix/getenv.c
+lib/posix/isatty.c
+lib/posix/open.c
+lib/posix/read.c
+lib/posix/setenv.c
+lib/posix/wait.c
+lib/stdio/fgetc.c
+lib/stdio/fputc.c
+lib/stdio/fputs.c
+lib/stdio/getc.c
+lib/stdio/getchar.c
+lib/stdio/putc.c
+lib/stdio/putchar.c
+lib/stdio/ungetc.c
+lib/stdlib/free.c
+lib/stdlib/malloc.c
+lib/stdlib/realloc.c
+lib/string/memchr.c
+lib/string/memcmp.c
+lib/string/memcpy.c
+lib/string/memmove.c
+lib/string/memset.c
+lib/string/strcmp.c
+lib/string/strcpy.c
+lib/string/strncmp.c
+
+lib/linux/access.c
+lib/linux/brk.c
+lib/linux/chmod.c
+lib/linux/clock_gettime.c
+lib/linux/dup.c
+lib/linux/dup2.c
+lib/linux/execve.c
+lib/linux/fork.c
+lib/linux/fsync.c
+lib/linux/_getcwd.c
+lib/linux/gettimeofday.c
+lib/linux/ioctl.c
+lib/linux/_open3.c
+lib/linux/_read.c
+lib/linux/time.c
+lib/linux/unlink.c
+lib/linux/waitpid.c
+lib/linux/x86-mes-mescc/syscall.c
+
+lib/ctype/islower.c
+lib/ctype/isupper.c
+lib/ctype/tolower.c
+lib/ctype/toupper.c
+lib/mes/abtod.c
+lib/mes/dtoab.c
+lib/mes/search-path.c
+lib/posix/execvp.c
+lib/stdio/fclose.c
+lib/stdio/fdopen.c
+lib/stdio/ferror.c
+lib/stdio/fflush.c
+lib/stdio/fopen.c
+lib/stdio/fprintf.c
+lib/stdio/fread.c
+lib/stdio/fseek.c
+lib/stdio/ftell.c
+lib/stdio/fwrite.c
+lib/stdio/printf.c
+lib/stdio/remove.c
+lib/stdio/snprintf.c
+lib/stdio/sprintf.c
+lib/stdio/sscanf.c
+lib/stdio/vfprintf.c
+lib/stdio/vprintf.c
+lib/stdio/vsnprintf.c
+lib/stdio/vsprintf.c
+lib/stdio/vsscanf.c
+lib/stdlib/calloc.c
+lib/stdlib/qsort.c
+lib/stdlib/strtod.c
+lib/stdlib/strtof.c
+lib/stdlib/strtol.c
+lib/stdlib/strtold.c
+lib/stdlib/strtoll.c
+lib/stdlib/strtoul.c
+lib/stdlib/strtoull.c
+lib/string/memmem.c
+lib/string/strcat.c
+lib/string/strchr.c
+lib/string/strlwr.c
+lib/string/strncpy.c
+lib/string/strrchr.c
+lib/string/strstr.c
+lib/string/strupr.c
+lib/stub/sigaction.c
+lib/stub/ldexp.c
+lib/stub/mprotect.c
+lib/stub/localtime.c
+lib/stub/sigemptyset.c
+lib/x86-mes-mescc/setjmp.c
+'
+++ test linux = linux
+++ libc_tcc_SOURCES='
+
+
+
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+
+lib/ctype/isnumber.c
+lib/mes/abtol.c
+lib/mes/div.c
+lib/mes/eputc.c
+lib/mes/fdgetc.c
+lib/mes/fdputc.c
+lib/mes/fdputs.c
+lib/mes/fdungetc.c
+lib/mes/itoa.c
+lib/mes/ltoa.c
+lib/mes/ltoab.c
+lib/mes/mes_open.c
+lib/mes/ntoab.c
+lib/mes/oputc.c
+lib/mes/ultoa.c
+lib/mes/utoa.c
+
+lib/ctype/isdigit.c
+lib/ctype/isspace.c
+lib/ctype/isxdigit.c
+lib/posix/write.c
+lib/stdlib/atoi.c
+
+lib/linux/lseek.c
+
+lib/mes/__assert_fail.c
+lib/mes/__buffered_read.c
+lib/mes/__mes_debug.c
+lib/posix/execv.c
+lib/posix/getcwd.c
+lib/posix/getenv.c
+lib/posix/isatty.c
+lib/posix/open.c
+lib/posix/read.c
+lib/posix/setenv.c
+lib/posix/wait.c
+lib/stdio/fgetc.c
+lib/stdio/fputc.c
+lib/stdio/fputs.c
+lib/stdio/getc.c
+lib/stdio/getchar.c
+lib/stdio/putc.c
+lib/stdio/putchar.c
+lib/stdio/ungetc.c
+lib/stdlib/free.c
+lib/stdlib/malloc.c
+lib/stdlib/realloc.c
+lib/string/memchr.c
+lib/string/memcmp.c
+lib/string/memcpy.c
+lib/string/memmove.c
+lib/string/memset.c
+lib/string/strcmp.c
+lib/string/strcpy.c
+lib/string/strncmp.c
+
+lib/linux/access.c
+lib/linux/brk.c
+lib/linux/chmod.c
+lib/linux/clock_gettime.c
+lib/linux/dup.c
+lib/linux/dup2.c
+lib/linux/execve.c
+lib/linux/fork.c
+lib/linux/fsync.c
+lib/linux/_getcwd.c
+lib/linux/gettimeofday.c
+lib/linux/ioctl.c
+lib/linux/_open3.c
+lib/linux/_read.c
+lib/linux/time.c
+lib/linux/unlink.c
+lib/linux/waitpid.c
+lib/linux/x86-mes-mescc/syscall.c
+
+lib/ctype/islower.c
+lib/ctype/isupper.c
+lib/ctype/tolower.c
+lib/ctype/toupper.c
+lib/mes/abtod.c
+lib/mes/dtoab.c
+lib/mes/search-path.c
+lib/posix/execvp.c
+lib/stdio/fclose.c
+lib/stdio/fdopen.c
+lib/stdio/ferror.c
+lib/stdio/fflush.c
+lib/stdio/fopen.c
+lib/stdio/fprintf.c
+lib/stdio/fread.c
+lib/stdio/fseek.c
+lib/stdio/ftell.c
+lib/stdio/fwrite.c
+lib/stdio/printf.c
+lib/stdio/remove.c
+lib/stdio/snprintf.c
+lib/stdio/sprintf.c
+lib/stdio/sscanf.c
+lib/stdio/vfprintf.c
+lib/stdio/vprintf.c
+lib/stdio/vsnprintf.c
+lib/stdio/vsprintf.c
+lib/stdio/vsscanf.c
+lib/stdlib/calloc.c
+lib/stdlib/qsort.c
+lib/stdlib/strtod.c
+lib/stdlib/strtof.c
+lib/stdlib/strtol.c
+lib/stdlib/strtold.c
+lib/stdlib/strtoll.c
+lib/stdlib/strtoul.c
+lib/stdlib/strtoull.c
+lib/string/memmem.c
+lib/string/strcat.c
+lib/string/strchr.c
+lib/string/strlwr.c
+lib/string/strncpy.c
+lib/string/strrchr.c
+lib/string/strstr.c
+lib/string/strupr.c
+lib/stub/sigaction.c
+lib/stub/ldexp.c
+lib/stub/mprotect.c
+lib/stub/localtime.c
+lib/stub/sigemptyset.c
+lib/x86-mes-mescc/setjmp.c
+
+lib/linux/close.c
+lib/linux/rmdir.c
+lib/linux/stat.c
+'
+++ libc_gnu_SOURCES='
+
+
+
+
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+
+lib/ctype/isnumber.c
+lib/mes/abtol.c
+lib/mes/div.c
+lib/mes/eputc.c
+lib/mes/fdgetc.c
+lib/mes/fdputc.c
+lib/mes/fdputs.c
+lib/mes/fdungetc.c
+lib/mes/itoa.c
+lib/mes/ltoa.c
+lib/mes/ltoab.c
+lib/mes/mes_open.c
+lib/mes/ntoab.c
+lib/mes/oputc.c
+lib/mes/ultoa.c
+lib/mes/utoa.c
+
+lib/ctype/isdigit.c
+lib/ctype/isspace.c
+lib/ctype/isxdigit.c
+lib/posix/write.c
+lib/stdlib/atoi.c
+
+lib/linux/lseek.c
+
+lib/mes/__assert_fail.c
+lib/mes/__buffered_read.c
+lib/mes/__mes_debug.c
+lib/posix/execv.c
+lib/posix/getcwd.c
+lib/posix/getenv.c
+lib/posix/isatty.c
+lib/posix/open.c
+lib/posix/read.c
+lib/posix/setenv.c
+lib/posix/wait.c
+lib/stdio/fgetc.c
+lib/stdio/fputc.c
+lib/stdio/fputs.c
+lib/stdio/getc.c
+lib/stdio/getchar.c
+lib/stdio/putc.c
+lib/stdio/putchar.c
+lib/stdio/ungetc.c
+lib/stdlib/free.c
+lib/stdlib/malloc.c
+lib/stdlib/realloc.c
+lib/string/memchr.c
+lib/string/memcmp.c
+lib/string/memcpy.c
+lib/string/memmove.c
+lib/string/memset.c
+lib/string/strcmp.c
+lib/string/strcpy.c
+lib/string/strncmp.c
+
+lib/linux/access.c
+lib/linux/brk.c
+lib/linux/chmod.c
+lib/linux/clock_gettime.c
+lib/linux/dup.c
+lib/linux/dup2.c
+lib/linux/execve.c
+lib/linux/fork.c
+lib/linux/fsync.c
+lib/linux/_getcwd.c
+lib/linux/gettimeofday.c
+lib/linux/ioctl.c
+lib/linux/_open3.c
+lib/linux/_read.c
+lib/linux/time.c
+lib/linux/unlink.c
+lib/linux/waitpid.c
+lib/linux/x86-mes-mescc/syscall.c
+
+lib/ctype/islower.c
+lib/ctype/isupper.c
+lib/ctype/tolower.c
+lib/ctype/toupper.c
+lib/mes/abtod.c
+lib/mes/dtoab.c
+lib/mes/search-path.c
+lib/posix/execvp.c
+lib/stdio/fclose.c
+lib/stdio/fdopen.c
+lib/stdio/ferror.c
+lib/stdio/fflush.c
+lib/stdio/fopen.c
+lib/stdio/fprintf.c
+lib/stdio/fread.c
+lib/stdio/fseek.c
+lib/stdio/ftell.c
+lib/stdio/fwrite.c
+lib/stdio/printf.c
+lib/stdio/remove.c
+lib/stdio/snprintf.c
+lib/stdio/sprintf.c
+lib/stdio/sscanf.c
+lib/stdio/vfprintf.c
+lib/stdio/vprintf.c
+lib/stdio/vsnprintf.c
+lib/stdio/vsprintf.c
+lib/stdio/vsscanf.c
+lib/stdlib/calloc.c
+lib/stdlib/qsort.c
+lib/stdlib/strtod.c
+lib/stdlib/strtof.c
+lib/stdlib/strtol.c
+lib/stdlib/strtold.c
+lib/stdlib/strtoll.c
+lib/stdlib/strtoul.c
+lib/stdlib/strtoull.c
+lib/string/memmem.c
+lib/string/strcat.c
+lib/string/strchr.c
+lib/string/strlwr.c
+lib/string/strncpy.c
+lib/string/strrchr.c
+lib/string/strstr.c
+lib/string/strupr.c
+lib/stub/sigaction.c
+lib/stub/ldexp.c
+lib/stub/mprotect.c
+lib/stub/localtime.c
+lib/stub/sigemptyset.c
+lib/x86-mes-mescc/setjmp.c
+
+lib/linux/close.c
+lib/linux/rmdir.c
+lib/linux/stat.c
+
+lib/ctype/isalnum.c
+lib/ctype/isalpha.c
+lib/ctype/isascii.c
+lib/ctype/iscntrl.c
+lib/ctype/isgraph.c
+lib/ctype/isprint.c
+lib/ctype/ispunct.c
+lib/dirent/__getdirentries.c
+lib/dirent/closedir.c
+lib/dirent/opendir.c
+lib/dirent/readdir.c
+lib/math/ceil.c
+lib/math/fabs.c
+lib/math/floor.c
+lib/mes/fdgets.c
+lib/posix/alarm.c
+lib/posix/execl.c
+lib/posix/execlp.c
+lib/posix/mktemp.c
+lib/posix/raise.c
+lib/posix/sbrk.c
+lib/posix/sleep.c
+lib/posix/unsetenv.c
+lib/stdio/clearerr.c
+lib/stdio/feof.c
+lib/stdio/fgets.c
+lib/stdio/fileno.c
+lib/stdio/freopen.c
+lib/stdio/fscanf.c
+lib/stdio/perror.c
+lib/stdio/vfscanf.c
+lib/stdlib/__exit.c
+lib/stdlib/abort.c
+lib/stdlib/abs.c
+lib/stdlib/alloca.c
+lib/stdlib/atexit.c
+lib/stdlib/atof.c
+lib/stdlib/atol.c
+lib/stdlib/mbstowcs.c
+lib/string/bcmp.c
+lib/string/bcopy.c
+lib/string/bzero.c
+lib/string/index.c
+lib/string/rindex.c
+lib/string/strcspn.c
+lib/string/strdup.c
+lib/string/strerror.c
+lib/string/strncat.c
+lib/string/strpbrk.c
+lib/string/strspn.c
+lib/stub/__cleanup.c
+lib/stub/atan2.c
+lib/stub/bsearch.c
+lib/stub/chown.c
+lib/stub/cos.c
+lib/stub/ctime.c
+lib/stub/exp.c
+lib/stub/fpurge.c
+lib/stub/freadahead.c
+lib/stub/frexp.c
+lib/stub/getgrgid.c
+lib/stub/getgrnam.c
+lib/stub/getlogin.c
+lib/stub/getpgid.c
+lib/stub/getpgrp.c
+lib/stub/getpwnam.c
+lib/stub/getpwuid.c
+lib/stub/gmtime.c
+lib/stub/log.c
+lib/stub/mktime.c
+lib/stub/modf.c
+lib/stub/pclose.c
+lib/stub/popen.c
+lib/stub/pow.c
+lib/stub/rand.c
+lib/stub/rewind.c
+lib/stub/setbuf.c
+lib/stub/setgrent.c
+lib/stub/setlocale.c
+lib/stub/setvbuf.c
+lib/stub/sigaddset.c
+lib/stub/sigblock.c
+lib/stub/sigdelset.c
+lib/stub/sigsetmask.c
+lib/stub/sin.c
+lib/stub/sqrt.c
+lib/stub/strftime.c
+lib/stub/sys_siglist.c
+lib/stub/system.c
+lib/stub/times.c
+lib/stub/ttyname.c
+lib/stub/umask.c
+lib/stub/utime.c
+'
+++ test linux = linux
+++ libc_gnu_SOURCES='
+
+
+
+
+lib/mes/eputs.c
+lib/mes/oputs.c
+
+lib/linux/x86-mes-mescc/mini.c
+lib/stdlib/exit.c
+lib/stdlib/puts.c
+lib/string/strlen.c
+
+lib/ctype/isnumber.c
+lib/mes/abtol.c
+lib/mes/div.c
+lib/mes/eputc.c
+lib/mes/fdgetc.c
+lib/mes/fdputc.c
+lib/mes/fdputs.c
+lib/mes/fdungetc.c
+lib/mes/itoa.c
+lib/mes/ltoa.c
+lib/mes/ltoab.c
+lib/mes/mes_open.c
+lib/mes/ntoab.c
+lib/mes/oputc.c
+lib/mes/ultoa.c
+lib/mes/utoa.c
+
+lib/ctype/isdigit.c
+lib/ctype/isspace.c
+lib/ctype/isxdigit.c
+lib/posix/write.c
+lib/stdlib/atoi.c
+
+lib/linux/lseek.c
+
+lib/mes/__assert_fail.c
+lib/mes/__buffered_read.c
+lib/mes/__mes_debug.c
+lib/posix/execv.c
+lib/posix/getcwd.c
+lib/posix/getenv.c
+lib/posix/isatty.c
+lib/posix/open.c
+lib/posix/read.c
+lib/posix/setenv.c
+lib/posix/wait.c
+lib/stdio/fgetc.c
+lib/stdio/fputc.c
+lib/stdio/fputs.c
+lib/stdio/getc.c
+lib/stdio/getchar.c
+lib/stdio/putc.c
+lib/stdio/putchar.c
+lib/stdio/ungetc.c
+lib/stdlib/free.c
+lib/stdlib/malloc.c
+lib/stdlib/realloc.c
+lib/string/memchr.c
+lib/string/memcmp.c
+lib/string/memcpy.c
+lib/string/memmove.c
+lib/string/memset.c
+lib/string/strcmp.c
+lib/string/strcpy.c
+lib/string/strncmp.c
+
+lib/linux/access.c
+lib/linux/brk.c
+lib/linux/chmod.c
+lib/linux/clock_gettime.c
+lib/linux/dup.c
+lib/linux/dup2.c
+lib/linux/execve.c
+lib/linux/fork.c
+lib/linux/fsync.c
+lib/linux/_getcwd.c
+lib/linux/gettimeofday.c
+lib/linux/ioctl.c
+lib/linux/_open3.c
+lib/linux/_read.c
+lib/linux/time.c
+lib/linux/unlink.c
+lib/linux/waitpid.c
+lib/linux/x86-mes-mescc/syscall.c
+
+lib/ctype/islower.c
+lib/ctype/isupper.c
+lib/ctype/tolower.c
+lib/ctype/toupper.c
+lib/mes/abtod.c
+lib/mes/dtoab.c
+lib/mes/search-path.c
+lib/posix/execvp.c
+lib/stdio/fclose.c
+lib/stdio/fdopen.c
+lib/stdio/ferror.c
+lib/stdio/fflush.c
+lib/stdio/fopen.c
+lib/stdio/fprintf.c
+lib/stdio/fread.c
+lib/stdio/fseek.c
+lib/stdio/ftell.c
+lib/stdio/fwrite.c
+lib/stdio/printf.c
+lib/stdio/remove.c
+lib/stdio/snprintf.c
+lib/stdio/sprintf.c
+lib/stdio/sscanf.c
+lib/stdio/vfprintf.c
+lib/stdio/vprintf.c
+lib/stdio/vsnprintf.c
+lib/stdio/vsprintf.c
+lib/stdio/vsscanf.c
+lib/stdlib/calloc.c
+lib/stdlib/qsort.c
+lib/stdlib/strtod.c
+lib/stdlib/strtof.c
+lib/stdlib/strtol.c
+lib/stdlib/strtold.c
+lib/stdlib/strtoll.c
+lib/stdlib/strtoul.c
+lib/stdlib/strtoull.c
+lib/string/memmem.c
+lib/string/strcat.c
+lib/string/strchr.c
+lib/string/strlwr.c
+lib/string/strncpy.c
+lib/string/strrchr.c
+lib/string/strstr.c
+lib/string/strupr.c
+lib/stub/sigaction.c
+lib/stub/ldexp.c
+lib/stub/mprotect.c
+lib/stub/localtime.c
+lib/stub/sigemptyset.c
+lib/x86-mes-mescc/setjmp.c
+
+lib/linux/close.c
+lib/linux/rmdir.c
+lib/linux/stat.c
+
+lib/ctype/isalnum.c
+lib/ctype/isalpha.c
+lib/ctype/isascii.c
+lib/ctype/iscntrl.c
+lib/ctype/isgraph.c
+lib/ctype/isprint.c
+lib/ctype/ispunct.c
+lib/dirent/__getdirentries.c
+lib/dirent/closedir.c
+lib/dirent/opendir.c
+lib/dirent/readdir.c
+lib/math/ceil.c
+lib/math/fabs.c
+lib/math/floor.c
+lib/mes/fdgets.c
+lib/posix/alarm.c
+lib/posix/execl.c
+lib/posix/execlp.c
+lib/posix/mktemp.c
+lib/posix/raise.c
+lib/posix/sbrk.c
+lib/posix/sleep.c
+lib/posix/unsetenv.c
+lib/stdio/clearerr.c
+lib/stdio/feof.c
+lib/stdio/fgets.c
+lib/stdio/fileno.c
+lib/stdio/freopen.c
+lib/stdio/fscanf.c
+lib/stdio/perror.c
+lib/stdio/vfscanf.c
+lib/stdlib/__exit.c
+lib/stdlib/abort.c
+lib/stdlib/abs.c
+lib/stdlib/alloca.c
+lib/stdlib/atexit.c
+lib/stdlib/atof.c
+lib/stdlib/atol.c
+lib/stdlib/mbstowcs.c
+lib/string/bcmp.c
+lib/string/bcopy.c
+lib/string/bzero.c
+lib/string/index.c
+lib/string/rindex.c
+lib/string/strcspn.c
+lib/string/strdup.c
+lib/string/strerror.c
+lib/string/strncat.c
+lib/string/strpbrk.c
+lib/string/strspn.c
+lib/stub/__cleanup.c
+lib/stub/atan2.c
+lib/stub/bsearch.c
+lib/stub/chown.c
+lib/stub/cos.c
+lib/stub/ctime.c
+lib/stub/exp.c
+lib/stub/fpurge.c
+lib/stub/freadahead.c
+lib/stub/frexp.c
+lib/stub/getgrgid.c
+lib/stub/getgrnam.c
+lib/stub/getlogin.c
+lib/stub/getpgid.c
+lib/stub/getpgrp.c
+lib/stub/getpwnam.c
+lib/stub/getpwuid.c
+lib/stub/gmtime.c
+lib/stub/log.c
+lib/stub/mktime.c
+lib/stub/modf.c
+lib/stub/pclose.c
+lib/stub/popen.c
+lib/stub/pow.c
+lib/stub/rand.c
+lib/stub/rewind.c
+lib/stub/setbuf.c
+lib/stub/setgrent.c
+lib/stub/setlocale.c
+lib/stub/setvbuf.c
+lib/stub/sigaddset.c
+lib/stub/sigblock.c
+lib/stub/sigdelset.c
+lib/stub/sigsetmask.c
+lib/stub/sin.c
+lib/stub/sqrt.c
+lib/stub/strftime.c
+lib/stub/sys_siglist.c
+lib/stub/system.c
+lib/stub/times.c
+lib/stub/ttyname.c
+lib/stub/umask.c
+lib/stub/utime.c
+
+lib/linux/chdir.c
+lib/linux/fcntl.c
+lib/linux/fstat.c
+lib/linux/getdents.c
+lib/linux/getegid.c
+lib/linux/geteuid.c
+lib/linux/getgid.c
+lib/linux/getpid.c
+lib/linux/getppid.c
+lib/linux/getrusage.c
+lib/linux/getuid.c
+lib/linux/kill.c
+lib/linux/link.c
+lib/linux/lstat.c
+lib/linux/mkdir.c
+lib/linux/mknod.c
+lib/linux/nanosleep.c
+lib/linux/pipe.c
+lib/linux/readlink.c
+lib/linux/rename.c
+lib/linux/setgid.c
+lib/linux/settimer.c
+lib/linux/setuid.c
+lib/linux/signal.c
+lib/linux/sigprogmask.c
+lib/linux/symlink.c
+'
+++ mes_SOURCES='
+src/gc.c
+src/hash.c
+src/lib.c
+src/math.c
+src/mes.c
+src/module.c
+src/posix.c
+src/reader.c
+src/string.c
+src/struct.c
+src/vector.c
+'
++ CPPFLAGS='-D HAVE_CONFIG_H=1 -I include'
++ CFLAGS=
++ mkdir -p mescc-lib
++ cp config.sh mescc-lib/config.sh
++ cd mescc-lib
++ srcdest=../
++ CPPFLAGS='-D HAVE_CONFIG_H=1 -I ../include -I ../include/linux/x86'
++ mkdir x86-mes
++ /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc -c -D HAVE_CONFIG_H=1 -I ../include -I ../include/linux/x86 ../lib/linux/x86-mes-mescc/crt1.c
++ MES_ARENA=20000000
++ export MES_ARENA
++ MES_MAX_ARENA=20000000
++ export MES_MAX_ARENA
++ MES_STACK=5000000
++ export MES_STACK
++ MES_PREFIX=/build
++ export MES_PREFIX
++ GUILE_LOAD_PATH=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/share/guile/site/2.2:/nix/store/1si3nsnsrrbpsgn22wvxdnsv8ls57fdd-nyacc-0.99.0/share/guile/site/2.2
++ export GUILE_LOAD_PATH
++ MES=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes
++ bindir=/bin/mes
++ '[' '!' -f /bin/mes/mescc.scm ']'
+++ dirname /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc
++ bindir=/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin
++ sep=
+++ basename /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes
++ '[' mes = mes ']'
++ sep=--
++ /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mes --no-auto-compile -e main -L /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/share/guile/site/2.2 -C /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/lib/guile/2.2/site-ccache /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc.scm -- -c -D HAVE_CONFIG_H=1 -I ../include -I ../include/linux/x86 ../lib/linux/x86-mes-mescc/crt1.c
+/nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/bin/mescc: line 59:    69 Segmentation fault      (core dumped) ${SCHEME-$MES} --no-auto-compile -e main -L /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/share/guile/site/2.2 -C /nix/store/v83a2ahxp3pwi90y62isd5rac7cnpg7z-mes-stage1-0.21/lib/guile/2.2/site-ccache $bindir/mescc.scm $sep "$@"
+builder for '/nix/store/7ipmjnpax4cp25r2k557rx9nwg5zbhac-mes-0.21.drv' failed with exit code 139
+error: build of '/nix/store/7ipmjnpax4cp25r2k557rx9nwg5zbhac-mes-0.21.drv' failed
