@@ -18,16 +18,14 @@
 
     NB. The final compilation step (4) is not strictly nescessary, and is
     performmed only because it allows for a simpiler package expression
+
+    The final binary should hash to:
+      9e0bcb1633c58e7bc415f6ea27cee7951d6b0658e13cdc147e992b31a14625fb
   */
 
 let
   pname = "mes";
   version = "0.21";
-
-  #src = fetchurl {
-    #url = "mirror://savannah/mes/mes-${version}.tar.gz";
-    #sha256 = "104qxngxyl7pql8vqrnli3wfyx0ayfaqg8gjfhmk4qzrafs46slm";
-  #};
 
   src = fetchurl {
     url = "http://lilypond.org/janneke/mes/mes-0.21-11-gd8f361705.tar.gz";
@@ -37,7 +35,6 @@ let
   mes-stage1 = stdenv32.mkDerivation {
     pname = "mes-stage1";
     inherit version src;
-    #patches = [ ./patch.patch ];
     buildInputs = [ guile guile-nyacc mescc-tools ];
     hardeningDisable = [ "all" ]; # TODO: get more granular here
   };
