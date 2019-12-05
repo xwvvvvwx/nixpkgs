@@ -4470,8 +4470,7 @@ in
 
   medfile = callPackage ../development/libraries/medfile { };
 
-  mes-stage1 = callPackage ../development/compilers/mes { stdenv32 = pkgs.pkgsi686Linux.stdenv; };
-  mes = callPackage ../development/compilers/mes {};
+  mes = callPackage ../development/compilers/mes { stdenv32 = pkgs.pkgsi686Linux.stdenv; };
 
   mescc-tools = callPackage ../development/tools/mescc-tools { };
 

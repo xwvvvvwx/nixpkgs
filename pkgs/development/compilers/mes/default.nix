@@ -1,4 +1,4 @@
-{ stdenv32, bash, fetchurl, coreutils, gnused, gnutar, gnugrep, guile, guile-nyacc, gzip, mescc-tools }:
+{ strace, stdenv32, patch, bash, fetchurl, coreutils, gnused, gnutar, gnugrep, guile, guile-nyacc, gzip, mescc-tools }:
 
   /*
     The build has four phases:
@@ -24,9 +24,6 @@ let
   pname = "mes";
   version = "0.21";
 
-  # mes builds 32bit only
-  system = "i686-linux";
-
   src = fetchurl {
     url = "mirror://savannah/mes/mes-${version}.tar.gz";
     sha256 = "104qxngxyl7pql8vqrnli3wfyx0ayfaqg8gjfhmk4qzrafs46slm";
@@ -39,30 +36,39 @@ let
 
   mes-stage1 = stdenv32.mkDerivation {
     pname = "mes-stage1";
-    inherit version src system;
-    makeFlags = [ "V=2" ];
+    inherit version src;
+    #patches = [ ./patch.patch ];
     buildInputs = [ guile guile-nyacc mescc-tools ];
     hardeningDisable = [ "all" ]; # TODO: get more granular here
   };
 in
 
 derivation {
-  inherit src pname version system;
+  inherit src pname version;
   name = "${pname}-${version}";
   builder = "${bash}/bin/bash";
   args = [ ./builder.sh ];
+
   AR = "${mes-stage1}/bin/mesar";
   CC = "${mes-stage1}/bin/mescc";
-  V = 2;
   GUILE_LOAD_PATH = "${guile-nyacc}/share/guile/site/2.2";
+  MES_PREFIX = "${mes-stage1}/share/mes";
+
+  MES_ARENA = "100000000";
+  MES_MAX_ARENA = "100000000";
+  MES_STACK = "10000000";
+
   buildInputs = [
     bash
     coreutils
+    patch
     gnugrep
     gnused
     gnutar
     gzip
     mes-stage1
     mescc-tools
+    strace
   ];
+  system = "i686-linux";
 }
