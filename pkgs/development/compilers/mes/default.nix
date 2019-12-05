@@ -24,15 +24,15 @@ let
   pname = "mes";
   version = "0.21";
 
-  src = fetchurl {
-    url = "mirror://savannah/mes/mes-${version}.tar.gz";
-    sha256 = "104qxngxyl7pql8vqrnli3wfyx0ayfaqg8gjfhmk4qzrafs46slm";
-  };
-
   #src = fetchurl {
-    #url = "http://lilypond.org/janneke/mes/mes-0.21-11-gd8f361705.tar.gz";
-    #sha256 = "0j40xr39vjwzzq9rj28s2y25jlyghradh84l65fmawxfv7vsmpy8";
+    #url = "mirror://savannah/mes/mes-${version}.tar.gz";
+    #sha256 = "104qxngxyl7pql8vqrnli3wfyx0ayfaqg8gjfhmk4qzrafs46slm";
   #};
+
+  src = fetchurl {
+    url = "http://lilypond.org/janneke/mes/mes-0.21-11-gd8f361705.tar.gz";
+    sha256 = "0j40xr39vjwzzq9rj28s2y25jlyghradh84l65fmawxfv7vsmpy8";
+  };
 
   mes-stage1 = stdenv32.mkDerivation {
     pname = "mes-stage1";

@@ -9,5 +9,5 @@ tar -xf $src --strip-components=1
 
 bash configure.sh --prefix=$out --host=i686-linux-gnu
 bash bootstrap.sh
-#bash check.sh
-#bash install.sh
+bash check.sh
+bash install.sh
