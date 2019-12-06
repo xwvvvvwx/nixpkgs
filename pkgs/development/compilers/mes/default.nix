@@ -58,14 +58,12 @@ derivation {
   buildInputs = [
     bash
     coreutils
-    patch
     gnugrep
     gnused
     gnutar
     gzip
     mes-stage1
     mescc-tools
-    strace
   ];
   system = "i686-linux";
 }
