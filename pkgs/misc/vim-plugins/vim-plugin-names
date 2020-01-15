@@ -193,8 +193,8 @@ KeitaNakamura/neodark.vim
 keith/swift.vim
 kien/rainbow_parentheses.vim
 konfekt/fastfold
-kristijanhusak/defx-icons
 kristijanhusak/defx-git
+kristijanhusak/defx-icons
 kristijanhusak/vim-hybrid-material
 kshenoy/vim-signature
 lambdalisue/vim-gista
@@ -338,6 +338,7 @@ osyo-manga/shabadou.vim
 osyo-manga/vim-anzu
 osyo-manga/vim-textobj-multiblock
 osyo-manga/vim-watchdogs
+othree/yajs.vim
 pangloss/vim-javascript
 parsonsmatt/intero-neovim
 pearofducks/ansible-vim
